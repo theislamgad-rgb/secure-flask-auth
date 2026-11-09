@@ -1,0 +1,6 @@
+{% extends "base.html" %}
+{% block title %}Dashboard{% endblock %}
+{% block content %}
+<h1>Dashboard</h1>
+<p>Welcome, {{ g.user['username'] }}. This page is only visible to authenticated users.</p>
+{% endblock %}
